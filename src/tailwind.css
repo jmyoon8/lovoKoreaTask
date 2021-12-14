@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   box-sizing: border-box;
+   user-select: none;
+}
+.min-h-100p {
+   min-height: 100%;
+}
+
+.headerTextColor {
+   color: #4b4453;
+}
+.debug {
+   border: 5px solid black;
+}
+.sideBarTransition {
+   transition: 0.25s ease;
+}
+
+.hoverFavorite {
+   transition: 0.2s ease;
+}
+.hoverCoupon {
+   transition: 0.2s ease;
+}
+.hoverClose {
+   transition: 0.2s ease;
+}
+.couponModal {
+   transition: 0.3s ease;
+}
+.textOverFlow {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 1;
+   line-height: 2rem;
+   height: 2rem;
+}
